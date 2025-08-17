@@ -1,0 +1,16 @@
+ls - shows the files and directories in the current directory
+touch sample.txt - creates a new file named sample.txt
+clear - clears the terminal screen
+mkdir new_folder - creates a new directory named new_folder
+pwd - prints the current working directory
+cd new_folder - changes the current directory to new_folder
+nano sample.txt - opens the sample.txt file in the nano text editor
+cat sample.txt - displays the contents of sample.txt
+rm sample.txt - removes the file named sample.txt
+rm -rf new_folder - removes the directory named new_folder and its contents
+sudo apt-get update - updates the package lists for upgrades and new installations
+df -h - displays disk space usage in a human-readable format
+sudo apt install htop - installs htop, an interactive process viewer for Unix systems
+htop - runs the htop command to view system processes and resource usage
+chown - changes the ownership of files and directories
+chown --help - displays help information for the chown command
