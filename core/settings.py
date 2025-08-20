@@ -76,24 +76,14 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'hibernate',
-    #     'USER': 'root',
-    #     'PASSWORD': 'root@123',
-    #     'HOST': 'localhost',
-    #     'PORT': '3306',
-    # }
-    # pip install mysqlclient
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'hibernate',
-        'USER': 'postgres',
+        'USER': 'root',
         'PASSWORD': 'root@123',
         'HOST': 'localhost',
-        'PORT': '5432',
-    }
-    # pip install psycopg2
+        'PORT': '3306',
+    }    
 }
 
 
