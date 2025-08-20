@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
+    <title>About</title>
 </head>
 <body>
-    <h1>Welcome to the Home Page</h1>
-    <p>This is the home page of our Django application.</p>
+    <h1>About Us</h1>
+    <p>This is the about page of our Django application.</p>
     <nav>
         <ul>
-            <li><a href="/">Home</a></li>
+            <li><a href="{% url 'index' %}">Home</a></li>
             <li><a href="{% url 'about' %}">About</a></li>
             <li><a href="{% url 'contact' %}">Contact</a></li>
         </ul>
