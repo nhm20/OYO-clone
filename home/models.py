@@ -10,4 +10,9 @@ class Student(models.Model):
     date_of_birth = models.DateField()
     student_registration = models.DateField()
     percentage = models.FloatField()
-
+    student_image=models.ImageField(upload_to='images/students/', null=True, blank=True)
+    file=models.FileField(upload_to='files/students/')
+    created_at=models.DateTimeField(auto_now_add=True)
+    updated_at=models.DateTimeField(auto_now_add=True)
+    slug=models.SlugField()
+    uid=models.UUIDField()
